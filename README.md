@@ -1,1 +1,0 @@
-# jokear-server
