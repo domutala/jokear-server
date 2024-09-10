@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+
+    <style>
+      tr {
+        vertical-align: top;
+      }
+
+      .video {
+        width: 360px;
+        background-color: black;
+        margin: 2px 0;
+      }
+
+      button {
+        margin: 2;
+      }
+
+      #sharedBtns {
+        padding: 5;
+        background-color: papayawhip;
+        display: flex;
+        justify-content: center;
+      }
+
+      .source-container {
+        background-color: red;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="source-container"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
